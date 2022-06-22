@@ -17,14 +17,14 @@ int main()
     int zeton;
     while (!serwer=true)
     { 
-    string ipserwera;
+    string serwer;
     string port;
-    cout << "IP Serwera: ";
-    cin >> ipserwera;
+    cout << "IP serwera: ";
+    cin >> serwer;
     cout << "Port Serwera: ";
     cin >> port;
     try {
-        tcp::iostream serwer(ipserwera, port);  // proba nawiazania polaczenia z serwerem
+        tcp::iostream serwer(serwer, port);  // proba nawiazania polaczenia z serwerem
         if (!serwer) {
             cout << "Polaczenie z serwerem nieudane." << endl;
             return 1;
