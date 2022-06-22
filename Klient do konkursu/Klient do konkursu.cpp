@@ -19,7 +19,7 @@ int main()
     { 
     string ipserwera;
     string port;
-    cout << "IP Serwera: ";
+    cout << "IP: ";
     cin >> ipserwera;
     cout << "Port Serwera: ";
     cin >> port;
