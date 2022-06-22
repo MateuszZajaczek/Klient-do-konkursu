@@ -15,8 +15,7 @@ int main()
  
     typedef adjacency_list<vecS, vecS, undirectedS> Graph;
     int zeton;
-    while (!serwer=true)
-    { 
+
     string serwer;
     string port;
     cout << "IP serwera: ";
@@ -69,7 +68,7 @@ int main()
             if (kod == 220) {
                 int ruch;
                 cout << "Podaj kolejny ruch: ";
-                cin >> ruch;vvvv
+                cin >> ruch;
                 remove_edge(zeton, ruch, g);
                 zeton = ruch;
             }
